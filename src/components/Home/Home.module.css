@@ -1,0 +1,23 @@
+.main{
+    background-image: url("../../assets/logo.png");
+    background-position   : right;
+    background-size       : contain;
+    background-repeat     : no-repeat;
+    margin                : auto;
+}
+
+.slideIn {
+    animation: slideInFromTop 1s ease-out; /* Adjust the duration and easing as needed */
+    animation-fill-mode: both;
+  }
+
+  @keyframes slideInFromTop {
+    0% {
+      transform: translateX(-50%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
