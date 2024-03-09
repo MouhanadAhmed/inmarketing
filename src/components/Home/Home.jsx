@@ -3,6 +3,7 @@ import styles from './Home.module.css';
 import logo from "../../assets/logo.png"
 import Services from '../Services/Services.jsx';
 import PageFlipSlider from '../PageFlipSlider/PageFlipSlider.jsx';
+import Clients from '../Clients/Clients.jsx';
 export default function Home() {
   return (
     <>
@@ -28,7 +29,9 @@ export default function Home() {
       </div>
     </main>
     <Services/>
-    <PageFlipSlider/>
+    {/* <h3 className='bg-port-green text-custom-gold text-4xl md:text-6xl lg:text-8xl font-bold py-4 text-center md:text-start'>Previous Works</h3> */}
+    <PageFlipSlider title="Previous Works"/>
+    <Clients/>
     </>
   );
 }

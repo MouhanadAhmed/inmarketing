@@ -1,0 +1,88 @@
+.newsletter {
+    position: relative;
+    max-width: 350px;
+    overflow: hidden;
+    /* margin: 0 auto; */
+}
+
+.newsletter input[type="email"] {
+    padding: 0 70px 0 20px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    /* border: solid 2px goldenrod; */
+    /* background-color: white; */
+    width: 100%;
+    line-height: 56px;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--qempo-footer-color);
+}
+
+.newsletter .formAction {
+    line-height: 42px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    z-index: 11;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    width: 60px;
+    height: 60px;
+}
+
+.newsletter .formAction i {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    z-index: 11;
+    /* font-size: 18px; */
+    
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    -ms-transition: all 0.35s;
+}
+
+.la, .las {
+    font-family: 'Line Awesome Free';
+    /* font-weight: 900; */
+}
+
+.newsletter .formAction .newsletterSubmit {
+    border: none;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 11;
+    opacity: 0;
+    background-color:goldenrod !important
+}
+
+/* 
+.btn-theme:hover, #comments #add_review_button:hover, #comments #submit:hover, .btn-theme:active, #comments #add_review_button:active, #comments #submit:active, .btn-theme:focus, #comments #add_review_button:focus, #comments #submit:focus, .btn:hover, .btn:active, .btn:focus, .btn-white:hover, .btn-white:active, .btn-white:focus, .btn-theme-2:hover, .btn-theme-2:active, .btn-theme-2:focus, .btn-black:hover, .btn-black:active, .btn-black:focus, .btn-black-2:hover, .btn-black-2:active, .btn-black-2:focus, input[type*="submit"]:not(.fa):not(.btn-theme):hover, input[type*="submit"]:not(.fa):not(.btn-theme):active, input[type*="submit"]:not(.fa):not(.btn-theme):focus, #tribe-events .tribe-events-button:hover, #tribe-events .tribe-events-button:active, #tribe-events .tribe-events-button:focus, .tribe-events-button:hover, .tribe-events-button:active, .tribe-events-button:focus {
+    cursor: pointer;
+    opacity: 0.86;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    color: goldenrod;
+} */
+
+.newsletterForm input[type="email"]:focus {
+    border-color: black;
+}

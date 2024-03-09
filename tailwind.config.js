@@ -10,6 +10,8 @@ module.exports = {
         'nav-green': '#205040',
         'serv-green': '#205040',
         'port-green': '#265646',
+        'footer-green': '#124131',
+        'footB-green': '#205046',
       },
       textColor: {
         'custom-gold': '#b78a1a',
