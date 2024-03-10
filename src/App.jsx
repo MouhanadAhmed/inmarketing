@@ -6,6 +6,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Layout from './components/Layout/Layout.jsx';
 import ServicePage from './components/ServicePage/ServicePage.jsx';
 import AboutUs from './components/AboutUs/AboutUs.jsx';
+import ContactUs from './components/ContactUs/ContactUs.jsx';
 function App() {
   const routes = createBrowserRouter([
     {
@@ -17,6 +18,7 @@ function App() {
         {path:"services", element:<Services/>},
         {path:"servicePage", element:<ServicePage/>},
         {path:"portfolio", element:<PageFlipSlider/>},
+        {path:"contact", element:<ContactUs/>},
        
       ],
     },

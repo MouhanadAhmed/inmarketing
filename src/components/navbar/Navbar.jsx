@@ -55,7 +55,7 @@ export default function Navbar() {
           <Link to={'/portfolio'}  className="text-sm font-semibold leading-6 text-custom-cafe hover:text-custom-gold">
             Portofolio
           </Link>
-          <Link to={'/'}  className="text-sm font-semibold leading-6 text-custom-cafe hover:text-custom-gold">
+          <Link to={'/contact'}  className="text-sm font-semibold leading-6 text-custom-cafe hover:text-custom-gold">
             Contact
           </Link>
         </Popover.Group>
@@ -101,7 +101,7 @@ export default function Navbar() {
           <Link to={'/portfolio'} onClick={() => setMobileMenuOpen(false)} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7  text-custom-cafe hover:text-custom-gold">
             Portofolio
           </Link>
-          <Link to={'/'} onClick={() => setMobileMenuOpen(false)} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7  text-custom-cafe hover:text-custom-gold">
+          <Link to={'/contact'} onClick={() => setMobileMenuOpen(false)} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7  text-custom-cafe hover:text-custom-gold">
             Contact
           </Link>
 
