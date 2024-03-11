@@ -2,9 +2,16 @@ import React from 'react'
 import { SimpleCard } from '../Card/Card.jsx'
 import exp from "../../assets/+3in copy.png"
 import logo from "../../assets/logo.png"
+import ContactUs from '../ContactUs/ContactUs.jsx'
+import { Helmet } from 'react-helmet'
 export default function Services() {
+  console.log(window.location)
   return (
-    
+    <>
+     {  window.location.pathname !== "/"?     <Helmet>
+            <meta charSet                                                                   = "utf-8" />
+            <title>IN - Services</title>
+        </Helmet> :""}
     <div className="p-8 min-h-screen bg-serv-green ">
     {/* <p className='text-start'>IN Network</p> */}
     <h2 className='text-4xl md:text-6xl lg:text-7xl font-bold text-custom-gold mb-3'>Focused on results we seek to raise the level of our customers</h2>
@@ -68,6 +75,7 @@ export default function Services() {
     </div>
 
     </div>
-    
+     { window.location.pathname !== "/"? <ContactUs/> :""}
+    </>
   )
 }

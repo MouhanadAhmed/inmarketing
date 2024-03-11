@@ -1,28 +1,39 @@
-import nodemailer from 'nodemailer';
-import { emailTemplate } from './emailTemplate.js';
+// import { emailTemplate } from './emailTemplate.js';
+import {emailTemplate} from './emailTemplate.js';
+import { createTransport } from 'nodemailer';
+import express from 'express';
+import  bodyParser   from 'body-parser';
+const cors = require('cors');
+const app = express();
+const port = 3001;
 
-export function sendEmail(options) {
-    const transporter = nodemailer.createTransport({
+app.use(bodyParser.json());
+app.use(cors());
+app.post('/send-email', (req, res) => {
+  const { name, email, message, subject,company,website,phone,service } = req.body;
+
+
+    const transporter = createTransport({
     service: 'gmail',
     auth: {
       // TODO: replace `user` and `pass` values from <https://forwardemail.net>
-      user: 'mouhanad.ahmed2@gmail.com',
-      pass: 'ghxgbhhheuxdldct'
+      user: 'serverinmarketing@gmail.com',
+      pass: 'qjmwzmlklqcmzfdw'
     }
   });
 
 
-  async function main() {
+
     // send mail with defined transport object
-    const info = await transporter.sendMail({
-      from: '"Mouhanad 👻" <mouhanad.ahmed2@gmail.com>', // sender address
-      to: options.email, // list of receivers
-      subject: options.sub, // Subject line
+     transporter.sendMail({
+      from: '"IN Marketing mail service 👻" <serverinmarketing@gmail.com>', // sender address
+      to: email, // list of receivers
+      subject: "New Lead", // Subject line
     //   text: "Hello world?", // plain text body
-      html:emailTemplate(options.api,options.text,options.title,options.btn), // html body
+      html:emailTemplate({message,subject,name,company,website,phone,email,service}), // html body
     });
   
-    console.log("Message sent: %s", info.messageId,typeof options.text,options.title );
+    console.log("Message sent: %s",message,subject );
     // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
   
     //
@@ -30,7 +41,12 @@ export function sendEmail(options) {
     //       Or you can use the "preview-email" npm package to preview emails locally in browsers and iOS Simulator
     //       <https://github.com/forwardemail/preview-email>
     //
-  }
   
-  main().catch(console.error);
-}
+  
+ 
+
+});
+
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
+});

@@ -1,4 +1,4 @@
-export function emailTemplate (api,text,title,btn){
+export function emailTemplate (props){
     return `
     <!DOCTYPE html>
     <html>
@@ -142,7 +142,7 @@ export function emailTemplate (api,text,title,btn){
             <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
               <tr>
                 <td align="left" bgcolor="#ffffff" style="padding: 36px 24px 0; font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; border-top: 3px solid #d4dadf;">
-                  <h1 style="margin: 0; font-size: 32px; font-weight: 700; letter-spacing: -1px; line-height: 48px;">${title}</h1>
+                  <h1 style="margin: 0; font-size: 32px; font-weight: 700; letter-spacing: -1px; line-height: 48px;">${props.subject}</h1>
                 </td>
               </tr>
             </table>
@@ -168,28 +168,18 @@ export function emailTemplate (api,text,title,btn){
               <!-- start copy -->
               <tr>
                 <td align="left" bgcolor="#ffffff" style="padding: 24px; font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 24px;">
-                  <p style="margin: 0;">${text}</p>
+                ${props.name? ` <p style="margin: 0;">Name : ${props.name}</p>`:""}
+                  ${props.company?`<p style="margin: 0;">Company: ${props.company}</p>`:""}
+                 ${props.website?` <p style="margin: 0;">Website or social media link: ${props.website}</p>`:""}
+                  ${props.phone?`<p style="margin: 0;">Phone: ${props.phone}</p>`:""}
+                  ${props.email?`<p style="margin: 0;">Email: ${props.email}</p>`:""}
+                  ${props.service?`<p style="margin: 0;">Service type: ${props.service}</p>`:""}
+                  ${props.message?`<p style="margin: 0;">Message: ${props.message}</p>`:""}
                 </td>
               </tr>
               <!-- end copy -->
 
-              ${btn?             ` <tr>
-                <td align="left" bgcolor="#ffffff">
-                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                    <tr>
-                      <td align="center" bgcolor="#ffffff" style="padding: 12px;">
-                        <table border="0" cellpadding="0" cellspacing="0">
-                          <tr>
-                            <td align="center" bgcolor="#1a82e2" style="border-radius: 6px;">
-                              <a href="${api}" target="_blank" style="display: inline-block; padding: 16px 36px; font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 16px; color: #ffffff; text-decoration: none; border-radius: 6px;">${btn}</a>
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>` :""}
+ 
               <!-- start button -->
 
               <!-- end button -->
@@ -199,7 +189,7 @@ export function emailTemplate (api,text,title,btn){
               <!-- start copy -->
               <tr>
                 <td align="left" bgcolor="#ffffff" style="padding: 24px; font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 24px; border-bottom: 3px solid #d4dadf">
-                  <p style="margin: 0;">Cheers,<br> Paste</p>
+                  <p style="margin: 0;">Cheers,<br> IN Marketing server</p>
                 </td>
               </tr>
               <!-- end copy -->

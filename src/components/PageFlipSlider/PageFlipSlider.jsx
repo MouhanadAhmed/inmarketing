@@ -35,6 +35,7 @@ export default function PageFlipSlider(props) {
 
   return (
     <div className=" bg-port-green ">
+
     {props.title? 
     <h3 className='md:ps-8 md:pt-8 md:mb-14 text-custom-gold text-4xl md:text-5xl lg:text-7xl font-bold py-4 text-center md:text-start'>Previous Works</h3>
     :null

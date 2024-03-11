@@ -15,7 +15,7 @@ export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="bg-nav-green text-white   " >
+    <header className="bg-nav-green text-white   w-full" >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <Link to={'/'} className="-m-1.5 p-1.5">
@@ -86,7 +86,7 @@ export default function Navbar() {
               <XMarkIcon className="h-6 w-6" aria-hidden="true" />
             </button>
           </div>
-          <div className="mt-6 flow-root">
+          <div className="mt-6 flow-root ">
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
               <Link to={'/'} onClick={() => setMobileMenuOpen(false)} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7  text-custom-cafe hover:text-custom-gold">

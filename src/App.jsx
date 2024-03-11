@@ -7,6 +7,7 @@ import Layout from './components/Layout/Layout.jsx';
 import ServicePage from './components/ServicePage/ServicePage.jsx';
 import AboutUs from './components/AboutUs/AboutUs.jsx';
 import ContactUs from './components/ContactUs/ContactUs.jsx';
+import Portfolio from './components/Portfolio/Portfolio.jsx';
 function App() {
   const routes = createBrowserRouter([
     {
@@ -17,7 +18,7 @@ function App() {
         {path:"about", element:<AboutUs/>},
         {path:"services", element:<Services/>},
         {path:"servicePage", element:<ServicePage/>},
-        {path:"portfolio", element:<PageFlipSlider/>},
+        {path:"portfolio", element:<Portfolio/>},
         {path:"contact", element:<ContactUs/>},
        
       ],
