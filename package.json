@@ -1,6 +1,7 @@
 {
   "name": "inmarketing",
   "version": "0.1.0",
+  "homepage": "https://MouhanadAhmed.github.io/inmarketing",
   "private": true,
   "type": "module",
   "proxy": "http://localhost:3001",
