@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/inmarketing/static/css/main.c483f7da.css",
-    "main.js": "/inmarketing/static/js/main.9be96a78.js",
+    "main.js": "/inmarketing/static/js/main.b587ee7e.js",
     "static/media/clients logos.png": "/inmarketing/static/media/clients logos.7d115a351f3446de85c6.png",
     "static/media/sopa1.svg": "/inmarketing/static/media/sopa1.c74ca8a14c88ac182ac66d6f7d2e6649.svg",
     "static/media/sopa4.svg": "/inmarketing/static/media/sopa4.c7759e360dcf446d958c29d847c9fa70.svg",
@@ -23,10 +23,10 @@
     "static/media/fa-v4compatibility.woff2": "/inmarketing/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
     "index.html": "/inmarketing/index.html",
     "main.c483f7da.css.map": "/inmarketing/static/css/main.c483f7da.css.map",
-    "main.9be96a78.js.map": "/inmarketing/static/js/main.9be96a78.js.map"
+    "main.b587ee7e.js.map": "/inmarketing/static/js/main.b587ee7e.js.map"
   },
   "entrypoints": [
     "static/css/main.c483f7da.css",
-    "static/js/main.9be96a78.js"
+    "static/js/main.b587ee7e.js"
   ]
 }
