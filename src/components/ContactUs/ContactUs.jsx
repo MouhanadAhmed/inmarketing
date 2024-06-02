@@ -52,7 +52,7 @@ export default function ContactUs() {
 
  const sendFormDataToServer = async (formData) => {
   try {
-    const response = await fetch('/send-email', {
+    const response = await fetch('https://mail-service-zr73.onrender.com/send-email', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -63,6 +63,7 @@ export default function ContactUs() {
     if (response.ok) {
       console.log('Email sent successfully');
       // Optionally, you can reset the form here
+      formik.resetForm()
     } else {
       console.error('Failed to send email');
     }
@@ -77,7 +78,7 @@ export default function ContactUs() {
             <meta charSet                                                                   = "utf-8" />
             <title>IN - Contact Us</title>
         </Helmet>
-    <div className='bg-custom-green min-h-screen flex flex-wrap justify-center items-center '>
+    <div className='bg-custom-green min-h-screen flex flex-wrap justify-center items-center pt-16'>
       <div className="md:w-1/3">
         <img src={logo} alt="IN Marketing logo" />
       </div>

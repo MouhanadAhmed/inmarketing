@@ -13,8 +13,9 @@ import {
     title: PropTypes.string.isRequired,
     icon: PropTypes.string.isRequired,
     desc: PropTypes.string.isRequired,
+    desc1: PropTypes.string.isRequired,
   };
-  export function SimpleCard({ title, icon, desc}) {
+  export function SimpleCard({ title, icon, desc, desc1}) {
 
     const navigate  = useNavigate();
 
@@ -33,7 +34,10 @@ import {
             {title}
           </Typography>
           <Typography className="text-sm p-3">
-            {desc}
+            {desc1}
+          </Typography>
+          <Typography className="text-sm p-3">
+            ..Read more
           </Typography>
         </CardBody>
         {/* <CardFooter className="pt-0">

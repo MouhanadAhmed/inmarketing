@@ -10,6 +10,7 @@ export default function Portfolio() {
             <meta charSet                                                                   = "utf-8" />
             <title>IN - Portfolio</title>
         </Helmet>
+        <p className='pt-10'></p>
     <PageFlipSlider/>
     <ContactUs/>
     </>

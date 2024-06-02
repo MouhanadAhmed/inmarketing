@@ -3,7 +3,7 @@ import {emailTemplate} from './emailTemplate.js';
 import { createTransport } from 'nodemailer';
 import express from 'express';
 import  bodyParser   from 'body-parser';
-const cors = require('cors');
+import cors from 'cors'
 const app = express();
 const port = 3001;
 

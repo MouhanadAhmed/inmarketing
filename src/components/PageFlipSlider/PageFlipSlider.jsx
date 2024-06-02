@@ -1,14 +1,14 @@
 import React, { useRef, useState }  from 'react'
 import HTMLFlipBook from 'react-pageflip';
 
-import sopa1 from '../../assets/sopa1.svg'
-import sopa2 from '../../assets/sopa2.svg'
-import sopa4 from '../../assets/sopa4.svg'
-import one from '../../assets/test1.jpeg'
-import two from '../../assets/test2.jpg'
-import three from '../../assets/test3.jpeg'
+// import sopa1 from '../../assets/sopa1.svg'
+// import sopa2 from '../../assets/sopa2.svg'
+// import sopa4 from '../../assets/sopa4.svg'
+// import one from '../../assets/test1.jpeg'
+// import two from '../../assets/test2'
+// import three from '../../assets/test3.jpeg'
 import flipAudio from '../../assets/page-flip-02.mp3'
-import four from '../../assets/test4.jpeg'
+// import four from '../../assets/test4.jpeg'
 export default function PageFlipSlider(props) {
   const ref = useRef();
   const [currentPage, setCurrentPage] = useState(0);
@@ -62,17 +62,40 @@ export default function PageFlipSlider(props) {
     ref={ref}
     on={(e)=> console.log(e)}
     mobileScrollSupport={true} className=' container-md'>
-     <img className="demoPage" src={one} alt="" /> 
-     <img className="demoPage" src={one} alt="" /> 
-     <img className="demoPage" src={two} alt="" /> 
-     <img className="demoPage" src={three} alt="" /> 
-     <img className="demoPage" src={four} alt="" /> 
-     <img className="demoPage" src={sopa1} alt="" /> 
-     <img className="demoPage" src={sopa2} alt="" /> 
-     <img className="demoPage" src={sopa4} alt="" /> 
+     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/1"} alt="" /> 
+     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/2"} alt="" /> 
+     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/3"} alt="" /> 
+     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/4"} alt="" /> 
+     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/5"} alt="" /> 
+     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/6"} alt="" /> 
+     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/7"} alt="" /> 
+     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/8"} alt="" /> 
+     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/9"} alt="" /> 
+     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/10"} alt="" /> 
+     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/11"} alt="" /> 
+     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/12"} alt="" /> 
+     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/13"} alt="" /> 
+     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/14"} alt="" /> 
+     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/15"} alt="" /> 
+     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/17"} alt="" /> 
+     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/18"} alt="" /> 
+     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/19"} alt="" /> 
+     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/20"} alt="" /> 
+     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/21"} alt="" /> 
+     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/22"} alt="" /> 
+     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/23"} alt="" /> 
+     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/24"} alt="" /> 
+     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/25"} alt="" /> 
+     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/26"} alt="" /> 
+     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/27"} alt="" /> 
+     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/28"} alt="" /> 
+     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/29"} alt="" /> 
+  
 </HTMLFlipBook>
 
     </div>
+    <p className='text-custom-gold'><i className='fa-solid fa-arrow-left pe-2'></i> swipe to see more <i className='fa-solid fa-arrow-right ps-2'></i></p>
+
     </div>
   )
 }

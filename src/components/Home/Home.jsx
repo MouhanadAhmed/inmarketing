@@ -37,6 +37,7 @@ export default function Home() {
     <Services/>
     {/* <h3 className='bg-port-green text-custom-gold text-4xl md:text-6xl lg:text-8xl font-bold py-4 text-center md:text-start'>Previous Works</h3> */}
     <PageFlipSlider title="Previous Works"/>
+    
     <Clients/>
     </>
   );
