@@ -17,14 +17,14 @@ export default function Home() {
       <div className="flex flex-wrap justify-center items-center shrink lg:shrink-0 content-center px-8 h-screen">
 
       <div id="home" className={` inset-0 backdrop-filter backdrop-blur-xs  md:h-min w-full md:w-2/3 px-4 ${styles.slideIn}`}>
-        <div className="text-white flex flex-col justify-center items-center md:items-start  px-3 py-8">
+        <div className="text-white dark:text-white flex flex-col justify-center items-center md:items-start  px-3 py-8">
           <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold py-4 text-center md:text-start text-custom-gold">
             Welcome to <br /> IN Marketing
           </h1>
-          <h3 className="text-center md:text-start text-lg md:text-2xl lg:text-2xl text-custom-green font-medium mb-10">
+          <h3 className="text-center md:text-start text-lg md:text-2xl lg:text-2xl dark:text-custom-green text-custom-green font-medium mb-10">
             If you’re ready, we’re IN
           </h3>
-          <Link to={'/contact'} className="bg-custom-gold p-3 px-8 rounded-full font-medium text-lg md:text-xl lg:text-lg inline-block hover:bg-white hover:text-custom-gold border hover:border-custom-gold ">
+          <Link to={'/contact'} className="bg-custom-gold dark:bg-custom-gold p-3 px-8 rounded-full font-medium text-lg md:text-xl lg:text-lg inline-block hover:bg-white hover:text-custom-gold border hover:border-custom-gold ">
             Contact us now
           </Link>
         </div>
