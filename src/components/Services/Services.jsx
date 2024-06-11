@@ -5,7 +5,7 @@ import logo from "../../assets/logo.png"
 import ContactUs from '../ContactUs/ContactUs.jsx'
 import { Helmet } from 'react-helmet'
 export default function Services() {
-  console.log(window.location)
+  // console.log(window.location)
   return (
     <>
      {  window.location.pathname !== "/"?     <Helmet>

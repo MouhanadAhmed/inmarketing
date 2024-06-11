@@ -33,7 +33,7 @@ app.post('/send-email', (req, res) => {
       html:emailTemplate({message,subject,name,company,website,phone,email,service}), // html body
     });
   
-    console.log("Message sent: %s",message,subject );
+    // console.log("Message sent: %s",message,subject );
     // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
   
     //
@@ -48,5 +48,5 @@ app.post('/send-email', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
+  // console.log(`Server is running on port ${port}`);
 });

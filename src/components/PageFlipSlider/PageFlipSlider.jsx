@@ -24,7 +24,7 @@ export default function PageFlipSlider(props) {
 
   const goToLastPage = () => {
     const pageNum =  ref.current.pageFlip().getPageCount();
-    console.log(pageNum)
+    // console.log(pageNum)
     ref.current.pageFlip().flip(pageNum-1)
   };
   const goToFirstPage = () => {
@@ -60,7 +60,7 @@ export default function PageFlipSlider(props) {
     showCover={true}
     onFlip= {handleSliderChange} 
     ref={ref}
-    on={(e)=> console.log(e)}
+    // on={(e)=> console.log(e)}
     mobileScrollSupport={true} className=' container-md'>
      <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/1"} alt="" /> 
      <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/2"} alt="" /> 

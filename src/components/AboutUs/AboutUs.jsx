@@ -23,7 +23,7 @@ export default function AboutUs() {
         <div className="md: flex-wrap justify-center md:text-start w-5/6 mx-auto items-center  container">
         <p className='text-custom-green mb-3 md:text-start w-4/6 mx-auto'>Clients</p>
         <h2 className='text-custom-gold  md:text-start w-4/6 mx-auto text-4xl md:text-5xl lg:text-6xl font-bold mb-0'>Some of our clients</h2>
-        <img src={Clients} alt="IN Marketing clients" className='object-fill w-full p-0'/>
+        <img src={"https://res.cloudinary.com/dwwg1th5s/image/upload/f_auto,q_auto/v1/Clients/clients"} alt="IN Marketing clients" className='object-fill w-full p-0'/>
         </div>
         </div>
   )

@@ -41,7 +41,7 @@ export default function ContactUs() {
     onSubmit                                                                                 : (values)=>
   {
     SetSubmitFormLoading(true)
-    console.log(values);
+    // console.log(values);
 
     //  setIsValues(values);   
     SetSubmitFormLoading(false)
@@ -61,7 +61,7 @@ export default function ContactUs() {
     });
 
     if (response.ok) {
-      console.log('Email sent successfully');
+      // console.log('Email sent successfully');
       // Optionally, you can reset the form here
       formik.resetForm()
     } else {
@@ -96,8 +96,8 @@ export default function ContactUs() {
         {/* <label htmlFor                                                                              = "name" className={`fw-semibold text-uppercase `}>Name *</label> */}
         <input type                                                                                 = "text" className={`form-control form-control-sm w-full p-2 bg-transparent border text-custom-gold border-custom-gold  rounded-lg`}  id='company' name='company' placeholder='  Company' value={formik.values.company} onChange={formik.handleChange} onBlur={formik.handleBlur}/>
       </div>
-      {formik.errors.name && formik.touched.name?<p className                                   = 'p-2 mb-4 w-1/3 text-sm text-red-800 rounded-lg  dark:text-red-600  me-6  ' role="alert"> {formik.errors.name} </p>:"" }
-      {formik.errors.company && formik.touched.company?<div className                                   = 'p-2 mb-4 text-sm text-red-800 rounded-lg  dark:text-red-600 w-1/3' role="alert">{formik.errors.company}</div>:"" }
+      {formik.errors.name && formik.touched.name?<p className                                   = 'p-2 mb-4 w-1/3 text-sm text-red-800 rounded-lg    me-6  ' role="alert"> {formik.errors.name} </p>:"" }
+      {formik.errors.company && formik.touched.company?<div className                                   = 'p-2 mb-4 text-sm text-red-800 rounded-lg   w-1/3' role="alert">{formik.errors.company}</div>:"" }
 
       <div className                                                                            = "form-group mb-2 w-full">
         {/* <label htmlFor                                                                              = "name" className={`fw-semibold text-uppercase `}>Name *</label> */}
