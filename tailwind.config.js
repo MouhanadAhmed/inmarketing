@@ -1,5 +1,5 @@
 export const content = [];
-export const darkMode = 'class'; // or 'media' based on how you want to enable dark mode
+export const darkMode = 'media'; // or 'media' based on how you want to enable dark mode
 export const theme = {
   extend: {
     backgroundColor: {
