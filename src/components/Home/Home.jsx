@@ -21,10 +21,10 @@ export default function Home() {
           <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold py-4 text-center md:text-start text-custom-gold">
             Welcome to <br /> IN Marketing
           </h1>
-          <h3 className="text-center md:text-start text-lg md:text-2xl lg:text-2xl text-white font-medium mb-10">
+          <h3 className="text-center md:text-start text-lg md:text-2xl lg:text-2xl text-custom-green font-medium mb-10">
             If you’re ready, we’re IN
           </h3>
-          <Link to={'/contact'} className="bg-custom-gold p-3 px-8 rounded-full font-medium text-lg md:text-xl lg:text-lg inline-block hover:bg-white hover:text-custom-gold">
+          <Link to={'/contact'} className="bg-custom-gold p-3 px-8 rounded-full font-medium text-lg md:text-xl lg:text-lg inline-block hover:bg-white hover:text-custom-gold border hover:border-custom-gold ">
             Contact us now
           </Link>
         </div>

@@ -1,17 +1,19 @@
 
 module.exports = {
   content: [],
+  darkMode: false,
   theme: {
     extend: {
       backgroundColor: {
         'custom-gold': '#b78a1a',
-        'custom-green': '#295a49',
+        'custom-green': '#FFFFFF',
         'custom-cafe': '#faeed6',
-        'nav-green': '#205040',
-        'serv-green': '#205040',
-        'port-green': '#265646',
-        'footer-green': '#124131',
-        'footB-green': '#205046',
+        'nav-green': '#FFFFFF',
+        'serv-green': '#FFFFFF',
+        'port-green': '#FFFFFF',
+        'footer-green': '#FFFFFF',
+        'footB-green': '#FFFFFF',
+        'in-green': "#295a49",
       },
       textColor: {
         'custom-gold': '#b78a1a',

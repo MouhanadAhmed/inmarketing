@@ -83,9 +83,9 @@ export default function ContactUs() {
         <img src={logo} alt="IN Marketing logo" />
       </div>
       <div className="md:w-1/2 md:text-start ">
-      <p className='text-custom-cafe mb-3 font-medium'>Contact Us</p>
+      <p className='text-custom-green mb-3 md:ms-16 font-medium'>Contact Us</p>
 
-      <h2 className='text-custom-gold text-4xl md:text-5xl lg:text-5xl font-bold mb-3'>Get In Touch</h2>
+      <h2 className='text-custom-gold text-4xl md:text-5xl lg:text-5xl md:ms-14 font-bold mb-3'>Get In Touch</h2>
       <form onSubmit                                                                      = {formik.handleSubmit} onReset={formik.handleReset} {...initialvalues} className='flex flex-wrap  justify-evenly md:justify-evenly items-center mx-auto w-5/6'>
       <div className                                                                            = "form-group mb-2  me-auto   w-1/2">
         {/* <label htmlFor                                                                              = "name" className={`fw-semibold text-uppercase `}>Name *</label> */}
@@ -121,11 +121,11 @@ export default function ContactUs() {
 
       <div className                                                                              = "form-group mb-3  md:w-full">
         {/* <label htmlFor                                                                              = "notes" className={`fw-semibold text-uppercase ${styles.labelText}`}>{t("NoteAboutTheVisitor")}</label> */}
-        <textarea rows                                                                              = "4" cols="40" className={`form-control form-control-sm w-full py-2 bg-transparent border text-custom-gold border-custom-gold  rounded-lg resize-none`}  id='message'name='message' value={formik.values.message} onChange={formik.handleChange} onBlur={formik.handleBlur}/>
+        <textarea rows                                                                              = "4" cols="40" className={`form-control form-control-sm w-full py-2 bg-transparent border text-custom-gold border-custom-gold  rounded-lg resize-none`} placeholder='    notes' id='message'name='message' value={formik.values.message} onChange={formik.handleChange} onBlur={formik.handleBlur}/>
       </div>
       
 
-      {SubmitFormLoading ? <button className={`form-group  mb-2 mx-auto md:mx-0  text-custom-gold  md:me-8 md:w-1/3`} type='submit'><i className='fa fa-spinner fa-spin'></i></button>:<button type                                                                    = "submit" disabled={!formik.isValid && formik.dirty } className=' mb-2 mx-auto md:mx-0 rounded-2xl p-2  md:me-8 md:w-1/3 bg-custom-gold text-white hover:bg-white hover:text-custom-gold' > Submit</button>}
+      {SubmitFormLoading ? <button className={`form-group  mb-2 mx-auto md:mx-0  text-custom-gold  md:me-8 md:w-1/3`} type='submit'><i className='fa fa-spinner fa-spin'></i></button>:<button type                                                                    = "submit" disabled={!formik.isValid && formik.dirty } className=' mb-2 mx-auto md:mx-0 rounded-2xl p-2  md:me-8 md:w-1/3 bg-custom-gold text-white hover:bg-white border hover:border-custom-gold hover:text-custom-gold' > Submit</button>}
 
       </form>
       </div>

@@ -17,8 +17,8 @@ export default function ServicePage() {
                 <title>IN - {title}</title>
                 <meta name={desc} content={title} />
             </Helmet>
-      <h2 className="  mx-3 md:mx-0  2xl:mx-0  p-4 text-custom-gold text-4xl md:text-5xl lg:text-6xl font-bold py-4 delay-100">{title}</h2>
-      <p className='text-white'>{desc}</p>
+      <h2 className="  mx-3 md:mx-0  2xl:mx-0 pt-40 p-4 text-custom-gold text-4xl md:text-5xl lg:text-6xl font-bold py-4 delay-100">{title}</h2>
+      <p className='text-custom-green'>{desc}</p>
       </div>
       <ContactUs/>
     </>

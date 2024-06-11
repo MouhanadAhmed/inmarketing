@@ -12,7 +12,7 @@ export default function Services() {
             <meta charSet                                                                   = "utf-8" />
             <title>IN - Services</title>
         </Helmet> :""}
-    <div className="p-8 min-h-screen bg-serv-green pt-16">
+    <div className="p-8 min-h-screen bg-serv-green pt-24">
     {/* <p className='text-start'>IN Network</p> */}
     <h2 className='text-4xl md:text-6xl lg:text-7xl font-bold text-custom-gold mb-3'>Focused on results we seek to raise the level of our customers</h2>
     <p className='font-medium text-white mb-8 2xl:mb-16'>For over 3 years we have been developing digital solutions for companies looking to gain better visibility on the internet.</p>
@@ -40,6 +40,16 @@ export default function Services() {
       desc1="enhance your digital reach with our online advertising expertise  "
       desc="enhance  your digital reach with our online advertising expertise. From strategic planning to impactful campaigns, we craft customized solutions to increase your brand's visibility and drive the best results. Boost your online presence with our targeted advertising strategies."
     />
+    {/* <SimpleCard 
+      title ="Website Design" 
+      icon="fa-laptop-code" 
+      desc1="Change your online presence with our web design experience."
+      desc="Change your online presence with our web design experience. From intuitive layouts to visually distinct interfaces, Lift up your brand digital experience with our customized web design solutions, with a DEFULPER team analyzing your requirements, a trial version to verify your requirements, technical support to resolve all possible post-implementation problems"
+    /> */}
+    </div>
+    <div className="flex flex-wrap justify-center 2xl:gap-2 gap-24 gap-y-8 -mx-4 py-4 mb-3">
+
+
     <SimpleCard 
       title ="Media Service" 
       icon="fa-icons" 
@@ -52,19 +62,13 @@ export default function Services() {
       desc1="Let your visual identity speak for you with our comprehensive branding services"
       desc="Let your visual identity speak for you with our comprehensive branding services. We specialize in creative planning and design to make your brand appear distinctive and leave a lasting impression on everyone who sees it. Make your brand have a distinctive and unforgettable presence"
     />
-    <SimpleCard 
-      title ="Website Design" 
-      icon="fa-laptop-code" 
-      desc1="Change your online presence with our web design experience."
-      desc="Change your online presence with our web design experience. From intuitive layouts to visually distinct interfaces, Lift up your brand digital experience with our customized web design solutions, with a DEFULPER team analyzing your requirements, a trial version to verify your requirements, technical support to resolve all possible post-implementation problems"
-    />
     </div>
 
     <div className="flex flex-wrap justify-center items-center   mx-auto  w-5/6">
       <div className="w-full md:w-1/3 ms-auto">
         <img src={exp} alt="experience" className='object-scale-down' />
       </div>
-      <div className="w-full md:w-2/3 text-white max-h-min me-auto">
+      <div className="w-full md:w-2/3 text-custom-green max-h-min me-auto">
         <div className="flex flex-wrap justify-center items-center ">
         <p className=' text-lg lg:text-xl mb-3 pt-4 md:pt-8'>Everything we do has the commitment of a professional and motivated team to deliver the highest results
 </p>

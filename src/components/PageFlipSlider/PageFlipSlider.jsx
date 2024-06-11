@@ -40,7 +40,7 @@ export default function PageFlipSlider(props) {
     <h3 className='md:ps-8 md:pt-8 md:mb-14 text-custom-gold text-4xl md:text-5xl lg:text-7xl font-bold py-4 text-center md:text-start'>Previous Works</h3>
     :null
     }
-    <div className='mt-6 w-full mx-auto  sm:w-1/2 md:w-1/4 xl:w-1/4 2xl:w-1/4 mb-3 cursor-pointer text-white p-4 bg-custom-gold border-2 border- rounded-lg hover:bg-white hover:text-custom-gold '>
+    <div className='mt-6 w-full mx-auto  sm:w-1/2 md:w-1/4 xl:w-1/4 2xl:w-1/4 mb-3 cursor-pointer text-white p-4 bg-custom-gold border-2 border- rounded-lg hover:bg-white hover:border-custom-gold border hover:text-custom-gold '>
     {/* <i className="fa-solid fa-expand mx-3 fa-xl"></i> */}
     <i className="fa-solid fa-backward-step mx-3 fa-xl" onClick={goToFirstPage}></i>
     <i className="fa-solid fa-caret-left mx-3 fa-xl"  onClick={()=> ref.current.pageFlip().flipPrev()}></i>
@@ -94,7 +94,7 @@ export default function PageFlipSlider(props) {
 </HTMLFlipBook>
 
     </div>
-    <p className='text-custom-gold'><i className='fa-solid fa-arrow-left pe-2'></i> swipe to see more <i className='fa-solid fa-arrow-right ps-2'></i></p>
+    <p className='text-custom-gold font-bold '><i className='fa-solid fa-arrow-left pe-2'></i> swipe to see more <i className='fa-solid fa-arrow-right ps-2'></i></p>
 
     </div>
   )
