@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import {Helmet} from "react-helmet";
 import { useLocation } from 'react-router-dom';
 import ContactUs from '../ContactUs/ContactUs.jsx';
@@ -8,6 +8,11 @@ export default function ServicePage() {
   const location = useLocation();
   const {title, icon, desc} =location.state || {};
   // console.log(myProps);
+
+  useEffect(()=>{
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    
+  },[])
 
   return (
     <>

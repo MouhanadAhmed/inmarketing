@@ -62,35 +62,34 @@ export default function PageFlipSlider(props) {
     ref={ref}
     // on={(e)=> console.log(e)}
     mobileScrollSupport={true} className=' container-md'>
-     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/1"} alt="" /> 
-     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/2"} alt="" /> 
-     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/3"} alt="" /> 
-     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/4"} alt="" /> 
-     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/5"} alt="" /> 
-     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/6"} alt="" /> 
-     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/7"} alt="" /> 
-     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/8"} alt="" /> 
-     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/9"} alt="" /> 
-     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/10"} alt="" /> 
-     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/11"} alt="" /> 
-     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/12"} alt="" /> 
-     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/13"} alt="" /> 
-     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/14"} alt="" /> 
-     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/15"} alt="" /> 
-     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/17"} alt="" /> 
-     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/18"} alt="" /> 
-     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/19"} alt="" /> 
-     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/20"} alt="" /> 
-     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/21"} alt="" /> 
-     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/22"} alt="" /> 
-     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/23"} alt="" /> 
-     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/24"} alt="" /> 
-     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/25"} alt="" /> 
-     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/26"} alt="" /> 
-     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/27"} alt="" /> 
-     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/28"} alt="" /> 
-     <img className="demoPage" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/Slider/29"} alt="" /> 
-  
+     <img className="demoPage" loading="lazy" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/f_auto,q_auto/v1/Slider/1"} alt="" /> 
+     <img className="demoPage" loading="lazy" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/f_auto,q_auto/v1/Slider/2"} alt="" /> 
+     <img className="demoPage" loading="lazy" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/f_auto,q_auto/v1/Slider/3"} alt="" /> 
+     <img className="demoPage" loading="lazy" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/f_auto,q_auto/v1/Slider/4"} alt="" /> 
+     <img className="demoPage" loading="lazy" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/f_auto,q_auto/v1/Slider/5"} alt="" /> 
+     <img className="demoPage" loading="lazy" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/f_auto,q_auto/v1/Slider/6"} alt="" /> 
+     <img className="demoPage" loading="lazy" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/f_auto,q_auto/v1/Slider/7"} alt="" /> 
+     <img className="demoPage" loading="lazy" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/f_auto,q_auto/v1/Slider/8"} alt="" /> 
+     <img className="demoPage" loading="lazy" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/f_auto,q_auto/v1/Slider/9"} alt="" /> 
+     <img className="demoPage" loading="lazy" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/f_auto,q_auto/v1/Slider/10"} alt="" /> 
+     <img className="demoPage" loading="lazy" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/f_auto,q_auto/v1/Slider/11"} alt="" /> 
+     <img className="demoPage" loading="lazy" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/f_auto,q_auto/v1/Slider/12"} alt="" /> 
+     <img className="demoPage" loading="lazy" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/f_auto,q_auto/v1/Slider/13"} alt="" /> 
+     <img className="demoPage" loading="lazy" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/f_auto,q_auto/v1/Slider/14"} alt="" /> 
+     <img className="demoPage" loading="lazy" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/f_auto,q_auto/v1/Slider/15"} alt="" /> 
+     <img className="demoPage" loading="lazy" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/f_auto,q_auto/v1/Slider/17"} alt="" /> 
+     <img className="demoPage" loading="lazy" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/f_auto,q_auto/v1/Slider/18"} alt="" /> 
+     <img className="demoPage" loading="lazy" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/f_auto,q_auto/v1/Slider/19"} alt="" /> 
+     <img className="demoPage" loading="lazy" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/f_auto,q_auto/v1/Slider/20"} alt="" /> 
+     <img className="demoPage" loading="lazy" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/f_auto,q_auto/v1/Slider/21"} alt="" /> 
+     <img className="demoPage" loading="lazy" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/f_auto,q_auto/v1/Slider/22"} alt="" /> 
+     <img className="demoPage" loading="lazy" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/f_auto,q_auto/v1/Slider/23"} alt="" /> 
+     <img className="demoPage" loading="lazy" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/f_auto,q_auto/v1/Slider/24"} alt="" /> 
+     <img className="demoPage" loading="lazy" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/f_auto,q_auto/v1/Slider/25"} alt="" /> 
+     <img className="demoPage" loading="lazy" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/f_auto,q_auto/v1/Slider/26"} alt="" /> 
+     <img className="demoPage" loading="lazy" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/f_auto,q_auto/v1/Slider/27"} alt="" /> 
+     <img className="demoPage" loading="lazy" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/f_auto,q_auto/v1/Slider/28"} alt="" /> 
+     <img className="demoPage" loading="lazy" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/f_auto,q_auto/v1/Slider/29"} alt="" /> 
 </HTMLFlipBook>
 
     </div>
