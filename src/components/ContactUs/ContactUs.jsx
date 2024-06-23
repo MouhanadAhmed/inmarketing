@@ -20,6 +20,7 @@ export default function ContactUs() {
     email                                                                                  : "",
     subject                                                                                  : "",
     message                                                                                  : "",
+    adminMail:"in.mktg.ag@gmail.com"
   }
   let validationSchema = Yup.object({
     name                                                                                     : Yup.string().required("Name is required , hint: min 3 charcters, maximum 15 charcters").min(3,"min 3 charcters").max(35,"maximum 35 charcters"),
