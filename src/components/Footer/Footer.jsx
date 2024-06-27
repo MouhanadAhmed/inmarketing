@@ -11,8 +11,8 @@ export default function Footer() {
                 <h3 className='text-bold text-xl  text-center w-full text-custom-green mb-3 '>About IN Network</h3>
                 <p className='text-custom-gold  md:ps-24 text-center w-full  md:me-auto mb-4 '>Know a little about our history and the path we have traveled that has brought us to the level we are today</p>
                  <p className="flex felx-wrap justify-center text-center items-center w-full">
-                <a href="https://www.facebook.com/IN.mktg.ag?mibextid=JRoKGi" target='blank'><i className="fa-brands fa-facebook fa-2xl pt-4 me-8  text-custom-gold"></i></a> 
-                <a href="https://www.instagram.com/in.mktg.ag?igsh=MWt1M2U5OTY0YWxrbQ==" target='blank'><i className="fa-brands fa-instagram fa-2xl pt-4 me-8 text-custom-gold"></i></a> 
+                <a href="https://www.facebook.com/in.marketingco1?mibextid=JRoKGi" target='blank'><i className="fa-brands fa-facebook fa-2xl pt-4 me-8  text-custom-gold"></i></a> 
+                <a href="https://www.instagram.com/in.marketingco?igsh=eTlmazAxbWIwcHJ0" target='blank'><i className="fa-brands fa-instagram fa-2xl pt-4 me-8 text-custom-gold"></i></a> 
                 <a href="https://wa.me/201555547247" alt="Chat on WhatsApp" target='blank'><i className="fa-brands fa-whatsapp fa-2xl pt-4 text-custom-gold"></i></a> 
                  {/* <i class="fa-brands fa-instagram fa-2xl pt-4 text-custom-gold"></i> */}
                </p>
@@ -34,7 +34,7 @@ export default function Footer() {
         
         </div>
         <div className='bg-in-green flex flex-col md:flex-row items-center md:flex-wrap justify-center md:justify-between md:items-center md:px-10 py-1 text-custom-gold'>
-            <p className=' md:text-start pt-2 '>© Copyright 2022 By IN Marketing</p>
+            <p className=' md:text-start pt-2 '>© Copyright By IN Marketing</p>
             <img src={logo} alt="IN Marketing logo"  className='md:me-40 w-16'/>
             <Link to={"/contact"} className='md:text-start hover:text-custom-gold'>Get in touch</Link>
         </div>

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import {Helmet} from "react-helmet";
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
-import {  toast } from 'react-toastify';
+import {  ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
 import logo from "../../assets/logo.png"
 import { FaceSmileIcon } from '@heroicons/react/24/outline';
@@ -20,7 +20,7 @@ export default function ContactUs() {
     email                                                                                  : "",
     subject                                                                                  : "",
     message                                                                                  : "",
-    adminMail:"in.mktg.ag@gmail.com"
+    // adminMail:"in.mktg.ag@gmail.com"
   }
   let validationSchema = Yup.object({
     name                                                                                     : Yup.string().required("Name is required , hint: min 3 charcters, maximum 15 charcters").min(3,"min 3 charcters").max(35,"maximum 35 charcters"),
@@ -53,6 +53,8 @@ export default function ContactUs() {
 
  const sendFormDataToServer = async (formData) => {
   try {
+    // adminMail:"in.mktg.ag@gmail.com"
+    formData.adminMail="in.mktg.ag@gmail.com";
     const response = await fetch('https://mail-service-zr73.onrender.com/send-email', {
       method: 'POST',
       headers: {
@@ -62,9 +64,20 @@ export default function ContactUs() {
     });
 
     if (response.ok) {
-      // console.log('Email sent successfully');
+      console.log('Email sent successfully');
       // Optionally, you can reset the form here
       formik.resetForm()
+      toast.success('Email sent successfully', {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "colored",
+        // transition: Bounce,
+        });
     } else {
       console.error('Failed to send email');
     }
@@ -132,6 +145,7 @@ export default function ContactUs() {
       </div>
       
       </div>
+      <ToastContainer></ToastContainer>
     </>
   )
 }
