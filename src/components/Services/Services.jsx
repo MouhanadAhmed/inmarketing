@@ -1,7 +1,7 @@
 import React from 'react'
 import { SimpleCard } from '../Card/Card.jsx'
 import exp from "../../assets/+3in copy.png"
-import logo from "../../assets/logo.png"
+import idea from "../../assets/ideac .png"
 import ContactUs from '../ContactUs/ContactUs.jsx'
 import { Helmet } from 'react-helmet'
 export default function Services() {
@@ -17,7 +17,12 @@ export default function Services() {
     <h2 className='text-4xl md:text-6xl lg:text-7xl font-bold text-custom-gold mb-3'>Focused on results we seek to raise the level of our customers</h2>
     <p className='font-medium text-custom-green mb-8 2xl:mb-16'>For over 3 years we have been developing digital solutions for companies looking to gain better visibility on the internet.</p>
     
-    <div className="flex flex-wrap justify-evenly  gap-4 gap-y-8 -mx-4 py-4 mb-3">
+    <div  className="flex flex-col md:flex-row  justify-center items-center  py-4 mb-3">
+    <div className="w-5/6 mx-auto md:w-2/4  block md:flex   md:justify-center">
+      <img src={idea} alt="idea"  className='     object-scale-down'/>
+    </div>
+
+    <div className="flex flex-col flex-wrap justify-evenly w-full md:w-2/4   py-4 mb-3">
 
     <SimpleCard 
       title="Marketing Service" 
@@ -46,11 +51,7 @@ export default function Services() {
       desc1="Change your online presence with our web design experience."
       desc="Change your online presence with our web design experience. From intuitive layouts to visually distinct interfaces, Lift up your brand digital experience with our customized web design solutions, with a DEFULPER team analyzing your requirements, a trial version to verify your requirements, technical support to resolve all possible post-implementation problems"
     /> */}
-    </div>
-    <div className="flex flex-wrap justify-center  gap-24 gap-y-8 -mx-4 py-4 mb-3">
-
-
-    <SimpleCard 
+     <SimpleCard 
       title ="Media Service" 
       icon="fa-icons" 
       desc1="Improve your brand through our media services."
@@ -63,6 +64,12 @@ export default function Services() {
       desc="Let your visual identity speak for you with our comprehensive branding services. We specialize in creative planning and design to make your brand appear distinctive and leave a lasting impression on everyone who sees it. Make your brand have a distinctive and unforgettable presence"
     />
     </div>
+    </div>
+    {/* <div className="flex flex-col flex-wrap justify-center  gap-24 gap-y-8 -mx-4 py-4 mb-3">
+
+
+   
+    </div> */}
 
     <div className="flex flex-wrap justify-center items-center   mx-auto  w-5/6">
       <div className="w-full md:w-1/3 ms-auto">
