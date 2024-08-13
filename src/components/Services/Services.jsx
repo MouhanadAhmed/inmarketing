@@ -15,7 +15,7 @@ export default function Services() {
     <div className="p-8 min-h-screen bg-serv-green pt-24">
     {/* <p className='text-start'>IN Network</p> */}
     <h2 className='text-4xl md:text-6xl lg:text-7xl font-bold text-custom-gold mb-3'>Focused on results we seek to raise the level of our customers</h2>
-    <p className='font-medium text-custom-green mb-8 2xl:mb-16'>For over 3 years we have been developing digital solutions for companies looking to gain better visibility on the internet.</p>
+    <p className='font-medium text-custom-green mb-8 2xl:mb-16'>For over 5 years we have been developing digital solutions for companies looking to gain better visibility on the internet.</p>
     
     <div  className="flex flex-col md:flex-row  justify-center items-center  py-4 mb-3">
     <div className="w-5/6 mx-auto md:w-2/4  block md:flex   md:justify-center">
