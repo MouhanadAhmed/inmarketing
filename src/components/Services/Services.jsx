@@ -7,7 +7,7 @@ import { Helmet } from 'react-helmet'
 import ads from '../../assets/ads (1).png'
 import branding from '../../assets/brandinng.png'
 import marketing from '../../assets/marketing (1).png'
-import media from '../../assets/media .png'
+import media from '../../assets/media 2.png'
 import social from '../../assets/social (1).png'
 export default function Services() {
   // console.log(window.location)
