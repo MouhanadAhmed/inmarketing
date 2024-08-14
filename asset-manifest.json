@@ -1,8 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.395aca3f.css",
-    "main.js": "/static/js/main.0d6cd5d7.js",
+    "main.css": "/static/css/main.d9fd8545.css",
+    "main.js": "/static/js/main.c0b4cdfc.js",
     "static/media/clients logos.png": "/static/media/clients logos.7d115a351f3446de85c6.png",
+    "static/media/marketing (1).png": "/static/media/marketing (1).c6bf0b24eabec0229e19.png",
+    "static/media/media .png": "/static/media/media .9f2f9cf70eb188ce1f70.png",
+    "static/media/social (1).png": "/static/media/social (1).0d4270a581281b63a01e.png",
+    "static/media/ads (1).png": "/static/media/ads (1).d12003419d0866196807.png",
+    "static/media/brandinng.png": "/static/media/brandinng.59b3bd0d118819c35209.png",
     "static/media/logo.png": "/static/media/logo.28c4454cd9c75b8967a3.png",
     "static/media/ideac .png": "/static/media/ideac .c2f6ebde7fc4114a0860.png",
     "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
@@ -16,11 +21,11 @@
     "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.2eb7b3ef25042305f3ff.ttf",
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
     "index.html": "/index.html",
-    "main.395aca3f.css.map": "/static/css/main.395aca3f.css.map",
-    "main.0d6cd5d7.js.map": "/static/js/main.0d6cd5d7.js.map"
+    "main.d9fd8545.css.map": "/static/css/main.d9fd8545.css.map",
+    "main.c0b4cdfc.js.map": "/static/js/main.c0b4cdfc.js.map"
   },
   "entrypoints": [
-    "static/css/main.395aca3f.css",
-    "static/js/main.0d6cd5d7.js"
+    "static/css/main.d9fd8545.css",
+    "static/js/main.c0b4cdfc.js"
   ]
 }
