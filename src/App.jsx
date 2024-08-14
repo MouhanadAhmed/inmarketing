@@ -1,8 +1,7 @@
 import './App.css';
-import PageFlipSlider from './components/PageFlipSlider/PageFlipSlider.jsx';
 import Home from "./components/Home/Home.jsx"
 import Services from './components/Services/Services.jsx';
-import { RouterProvider, createBrowserRouter,createHashRouter } from 'react-router-dom';
+import { RouterProvider, createHashRouter } from 'react-router-dom';
 import Layout from './components/Layout/Layout.jsx';
 import ServicePage from './components/ServicePage/ServicePage.jsx';
 import AboutUs from './components/AboutUs/AboutUs.jsx';

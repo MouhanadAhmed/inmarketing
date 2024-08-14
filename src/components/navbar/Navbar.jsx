@@ -4,9 +4,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import logo from '../../assets/logo.png';
 import { Link } from 'react-router-dom';
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ');
-}
+
 
 const scrollToTop = () => {
   window.scrollTo({ top: 0, behavior: 'smooth' });

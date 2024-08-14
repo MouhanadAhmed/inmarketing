@@ -1,9 +1,7 @@
 import {
     Card,
     CardBody,
-    CardFooter,
     Typography,
-    Button,
   } from "@material-tailwind/react";
   import PropTypes from 'prop-types';
   import { useNavigate } from 'react-router-dom';
@@ -14,8 +12,9 @@ import {
     icon: PropTypes.string.isRequired,
     desc: PropTypes.string.isRequired,
     desc1: PropTypes.string.isRequired,
+    img: PropTypes.any.isRequired,
   };
-  export function SimpleCard({ title, icon, desc, desc1}) {
+  export function SimpleCard({ title, icon, desc, desc1,img}) {
 
     const navigate  = useNavigate();
 
@@ -24,7 +23,7 @@ import {
       navigate('/servicePage', { state: additionalProps });
     };
     return (
-      <Card className="mt-6 w-full mx-3 md:mx-0  2xl:mx-0 text-white p-4 bg-custom-gold border-2  rounded-lg hover:border-custom-gold border-custom-gold  hover:bg-white hover:text-custom-gold delay-100" onClick={() => handleCardClick({ title:title, icon, desc })}>
+      <Card className="mt-6 w-full mx-3 md:mx-0  2xl:mx-0 text-white p-4 bg-custom-gold border-2  rounded-lg hover:border-custom-gold border-custom-gold  hover:bg-white hover:text-custom-gold delay-100" onClick={() => handleCardClick({ title:title, icon, desc,img })}>
         <CardBody className="flex items-center">
             <p className="mb-2 w-1/5 h-max pt-2">
 

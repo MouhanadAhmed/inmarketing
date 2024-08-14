@@ -5,7 +5,6 @@ import * as Yup from 'yup';
 import {  ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
 import logo from "../../assets/logo.png"
-import { FaceSmileIcon } from '@heroicons/react/24/outline';
 export default function ContactUs() {
 
   const [SubmitFormLoading,SetSubmitFormLoading]= useState(false);

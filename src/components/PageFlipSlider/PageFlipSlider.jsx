@@ -11,7 +11,6 @@ import flipAudio from '../../assets/page-flip-02.mp3'
 // import four from '../../assets/test4.jpeg'
 export default function PageFlipSlider(props) {
   const ref = useRef();
-  const [currentPage, setCurrentPage] = useState(0);
   const [isAudio,setAudio] = useState(true);
   const [mute,setMute] = useState("fa-volume-xmark");
   const handleSliderChange = () => {

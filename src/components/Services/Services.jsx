@@ -4,6 +4,11 @@ import exp from "../../assets/+3in copy.png"
 import idea from "../../assets/ideac .png"
 import ContactUs from '../ContactUs/ContactUs.jsx'
 import { Helmet } from 'react-helmet'
+import ads from '../../assets/ads (1).png'
+import branding from '../../assets/brandinng.png'
+import marketing from '../../assets/marketing (1).png'
+import media from '../../assets/media .png'
+import social from '../../assets/social (1).png'
 export default function Services() {
   // console.log(window.location)
   return (
@@ -30,6 +35,7 @@ export default function Services() {
       desc1="Make your brand soar with our comprehensive marketing services."
       desc="Make your brand soar with our comprehensive marketing services. We specialize in comprehensive strategic marketing planning to create compelling content to enhance your visibility, engage customers and achieve success.
       Let us design solutions to make your brand unique"
+      img={marketing}
     />
 
     <SimpleCard 
@@ -37,6 +43,7 @@ export default function Services() {
       icon="fa-hashtag"   
       desc1="Improve your online presence with our specialized social media management services"
       desc="Improve your online presence with our specialized social media management services. We handle strategic planning, content creation and engagement to enhance your brand's visibility and connect with your audience effectively. Improve your social media performance with our customized solutions. "
+      img={social}
     />
 
     <SimpleCard 
@@ -44,6 +51,7 @@ export default function Services() {
       icon="fa-rectangle-ad" 
       desc1="enhance your digital reach with our online advertising expertise  "
       desc="enhance  your digital reach with our online advertising expertise. From strategic planning to impactful campaigns, we craft customized solutions to increase your brand's visibility and drive the best results. Boost your online presence with our targeted advertising strategies."
+      img={ads}
     />
     {/* <SimpleCard 
       title ="Website Design" 
@@ -56,12 +64,14 @@ export default function Services() {
       icon="fa-icons" 
       desc1="Improve your brand through our media services."
       desc="Improve your brand through our media services. Starting from coordinated planning with the intended marketing goal to implementation with distinguished professional performance, let us shape your media presence to achieve success."
+      img={media}
     />
     <SimpleCard 
       title ="Branding Service" 
       icon="fa-trademark" 
       desc1="Let your visual identity speak for you with our comprehensive branding services"
       desc="Let your visual identity speak for you with our comprehensive branding services. We specialize in creative planning and design to make your brand appear distinctive and leave a lasting impression on everyone who sees it. Make your brand have a distinctive and unforgettable presence"
+      img={branding}
     />
     </div>
     </div>

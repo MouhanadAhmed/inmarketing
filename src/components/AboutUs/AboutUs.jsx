@@ -1,6 +1,5 @@
 import React from 'react'
 import logo from "../../assets/logo.png"
-import Clients from '../../assets/clients logos.png'
 import { Helmet } from 'react-helmet'
 export default function AboutUs() {
   return (
