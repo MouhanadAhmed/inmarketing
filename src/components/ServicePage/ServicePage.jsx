@@ -28,7 +28,7 @@ export default function ServicePage() {
       <h2 className="  mx-3 md:mx-0  2xl:mx-0 md:pt-40 p-4 text-custom-gold text-4xl md:text-5xl lg:text-6xl font-bold md:py-4 delay-100">{title}</h2>
       <p className='text-custom-green'>{desc}</p>
       </div>
-      <div className='md:w-2/5 pt-16 order-first lg:order-none'>
+      <div className='md:w-2/5 pt-24 order-first lg:order-none'>
         <img src={`${img}`} alt="service img" className="object-scale-down md:w-5/6" />
       </div>
             </div>
