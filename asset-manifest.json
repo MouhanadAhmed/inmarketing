@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.d9fd8545.css",
-    "main.js": "/static/js/main.48e6961d.js",
+    "main.js": "/static/js/main.c0d542cb.js",
     "static/media/clients logos.png": "/static/media/clients logos.7d115a351f3446de85c6.png",
     "static/media/marketing (1).png": "/static/media/marketing (1).c6bf0b24eabec0229e19.png",
-    "static/media/media .png": "/static/media/media .9f2f9cf70eb188ce1f70.png",
+    "static/media/media 2.png": "/static/media/media 2.000cf89cf49977aa2804.png",
     "static/media/social (1).png": "/static/media/social (1).0d4270a581281b63a01e.png",
     "static/media/ads (1).png": "/static/media/ads (1).d12003419d0866196807.png",
     "static/media/brandinng.png": "/static/media/brandinng.59b3bd0d118819c35209.png",
@@ -22,10 +22,10 @@
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
     "index.html": "/index.html",
     "main.d9fd8545.css.map": "/static/css/main.d9fd8545.css.map",
-    "main.48e6961d.js.map": "/static/js/main.48e6961d.js.map"
+    "main.c0d542cb.js.map": "/static/js/main.c0d542cb.js.map"
   },
   "entrypoints": [
     "static/css/main.d9fd8545.css",
-    "static/js/main.48e6961d.js"
+    "static/js/main.c0d542cb.js"
   ]
 }
