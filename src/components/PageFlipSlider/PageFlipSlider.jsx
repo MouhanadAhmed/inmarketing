@@ -64,6 +64,7 @@ export default function PageFlipSlider(props) {
      <img className="demoPage" loading="lazy" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/f_auto,q_auto/v1/Slider/1"} alt="" /> 
      <img className="demoPage" loading="lazy" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/f_auto,q_auto/v1/Slider/2"} alt="" /> 
      <img className="demoPage" loading="lazy" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/f_auto,q_auto/v1/Slider/3"} alt="" /> 
+     <img className="demoPage" loading="lazy" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/f_auto,q_auto/v1/Slider/3.1"} alt="" /> 
      <img className="demoPage" loading="lazy" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/f_auto,q_auto/v1/Slider/4"} alt="" /> 
      <img className="demoPage" loading="lazy" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/f_auto,q_auto/v1/Slider/5"} alt="" /> 
      <img className="demoPage" loading="lazy" src={"https://res.cloudinary.com/dwwg1th5s/image/upload/f_auto,q_auto/v1/Slider/6"} alt="" /> 
